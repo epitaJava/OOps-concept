@@ -27,6 +27,10 @@ public class Main {
 		Vehicle v = new Car("BMW", "1000", 35000);
 		System.out.println(v.getBrand());
 
+		Circle c = new Circle();
+		c.draw();
+		c.completedraw();
+
 	}
 
 }
