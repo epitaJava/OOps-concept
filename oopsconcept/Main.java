@@ -14,9 +14,9 @@ public class Main {
 		// AbstractExample a = new AbstractExample();
 
 		
-		  C c = new C();
-		  c.printInfo();
-		 
+		C c = new C();
+		c.printInfo();
+		c.printInfo1();
 
 		Child ex = new Child();
 		ex.printInfo();
