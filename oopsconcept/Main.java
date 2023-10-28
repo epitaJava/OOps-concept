@@ -14,17 +14,14 @@ public class Main {
 		// AbstractExample a = new AbstractExample();
 
 		
-		  C c = new C(); c.printInfo();
-		  
-		  //Parent objectname = new Childclass();
-		  Interface i = new C();
-		  i.printInfo1(); i.printInfo();
+		  C c = new C();
+		  c.printInfo();
 		 
 
 		Child ex = new Child();
 		ex.printInfo();
 
-		Vehicle v = new Car("BMW", "1000", 35000);
+		InterfaceExampleVehicle v = new Car("BMW", "1000", 35000);
 		System.out.println(v.getBrand());
 
 		Circle c = new Circle();
